@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap');
+
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    margin-bottom: 300px;
+    margin-top: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.left p {
+    color: gray;
+   
+}
+
+
+.left h1 {
+    font-size: 40px;
+}
+
+.left button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #69B99D;
+    color: white;
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    color: black;
+    text-align: center;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    width: 15%;
+    color: rgb(179, 176, 176);
+    opacity: .4;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+ul strong {
+    color: black  ;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header h3 {
+    color: #89C5CC;
+}
+
+main span {
+    color: #89C5CC;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
